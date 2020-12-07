@@ -1,0 +1,438 @@
+body {
+    background-color: #fff;
+    color:black;
+    font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+p {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+h1 {
+    font-family: 'Crete Round', serif;
+    font-weight: bold;
+    color: black;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+h2 {
+    font-weight: 300;
+    color: black;
+    font-size: 55px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h3 {
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h4 {
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+h5 {
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: blue;
+}
+strong {
+    font-weight: bold;
+}
+small {
+    font-size: 20px;
+    color:black;
+    margin: 20px;
+}
+
+table {
+    font-size: 20px;
+    color:black;
+    margin: 20px;
+}
+th {
+    font-size: 20px;
+    color:black;
+    margin: 20px;
+}
+
+td{
+    font-size: 20px;
+    color:black;
+    margin: 20px;
+}
+
+tr {
+    font-size: 20px;
+    color:black;
+    margin: 20px;
+}
+.clear {
+    clear: both;
+}
+.wrapper {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 940px;
+}
+header {
+    height: 120px;
+}
+header h1 {
+    float: left;
+    margin-top: 32px;
+    
+}
+.color {
+    color: whitesmoke;
+    
+}
+.eps {
+color: blue;
+padding-top: 0;
+padding-bottom: 0;
+line-height: 25px;
+
+}
+header nav {
+    float: right;
+}
+header nav ul li {
+    display: inline-block;
+    margin-top: 50px;
+}
+header nav ul li a {
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin-right: 20px;
+}
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    font-family: Arial;
+    height:80px;
+   
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    padding-top: 0;
+  padding-bottom: 0;
+  line-height: 80px;
+  }
+  
+  /* The dropdown container */
+
+  
+  
+  .dropdown {
+    float: right;
+    overflow: hidden;
+    padding-top: 0;
+  padding-bottom: 0;
+  line-height: 80px;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn ,.dropdown .dropbtn1 {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover,  .dropdown:hover {
+    background-color: blue;
+  }
+  .right{
+    float: right;
+    overflow: hidden;
+    padding-top: 0;
+  padding-bottom: 0;
+  line-height: 80px;
+  }
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+.buttonsinnav{
+    float:RIGHT;
+}
+.buttonsinnav .BUTTON{
+    font-size: 17px;
+}
+#home-image {
+    height: 580px;
+    padding-top: 1px;
+    background: #e8eced url('img/homes.jpg') no-repeat center;
+}
+#hero-image h2 {
+    margin: 180px 0 40px 0;
+}
+.button-1 {
+    display: block;
+    text-align: center;
+    background: black;
+    border-radius: 3px;
+    color: #fff;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    margin: 0 auto;
+}
+.button-1:hover {
+    background-color: blue;
+    color: #fff;
+}
+#features ul {
+    margin: 80px 0;
+}
+#features ul li {
+    width: 300px;
+    padding-top: 140px;
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+}
+#features ul li.feature-1 {
+    background: url('') no-repeat top center;
+}
+#features ul li.feature-2 {
+    background: url('') no-repeat top center;
+}
+#features ul li.feature-3 {
+    background: url('') no-repeat top center;
+}
+/* Float four columns side by side */
+#features .column {
+    float: right;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  #features.row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  #features .row:after {
+    content: "";
+    display: flex;
+    flex-wrap: inherit;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  #features .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    #features.column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+#primary-content {
+    background-color: blue;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#primary-contents {
+    background-color: rgba(10, 10, 235, 0.89);
+    margin-top: 5px;
+    text-align: center;
+}
+
+#primary-cont {
+    background-color: rgba(255, 0, 0, 0.788);
+    padding: 5px 0;
+    text-align: center;
+}
+
+#primary-cont h3 {
+    display: block;
+    margin: 0 auto 7px auto;
+    width: 300px;
+    padding: 0 0 20px 0;
+}
+
+#primary-contents h4 {
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 400px;
+    padding: 0 0 30px 0;
+}
+#primary-content h3 {
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 400px;
+    border-bottom: 1px solid blue;
+    padding: 0 0 20px 0;
+}
+#primary-content a img {
+    margin: 20px 0;
+}
+#cta {
+    padding: 60px 0;
+    text-align: center;
+}
+#cta h3 {
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 400px;
+    border-bottom: 1px solid blue;
+    padding: 0 0 20px 0;
+}
+.button-2 {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid blue;
+    color: blue;
+    border-radius: 3px;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+}
+.button-2:hover {
+    background-color: blue;
+    color: #fff;
+}
+footer {
+    padding: 60px 0;
+    background-color: blue;
+}
+#footer-info {
+    width: 380px;
+    float: left;
+    color: black;
+    margin-top: 10px;
+    font-size: 25px;
+}
+#footer-links {
+    width: 380px;
+    float: right;
+    color: black;
+    margin-top: 10px;
+    font-size: 25px;
+}
+#footer-links ul {
+    width: 150px;
+    float: left;
+    margin-left: 20px;
+    color: black;
+}
+#footer-links ul li {
+    margin: 10px 0;
+    color: black;
+}
+
+.li{
+    margin: 10px;
+}
+
